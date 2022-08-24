@@ -1,18 +1,19 @@
-let Mobile = function(){
- 
-   let Methodes = function(read,sent,sent){
-      this.setReadMes = function(){
+let Methodes = function(read,sent,seen){
+   this.readMes = read;
+   this.sentMes = sent;
+   this.seenMes = seen;
 
-      }
-      this.getReadMes = function(){
-      
-      }
-      this.setSentMes = function(){
-      
-      }
-      this.getSentMes = function(){
-      
-      }
-      this.
+   this.setReadMes = function(read){
+      this.readMes = read;
    }
+   this.getReadMes = function(){
+      return this.readMes;
+   }
+   this.setSentMes = function(){
+      
+   }
+   this.getSentMes = function(){
+      
+   }
+
 }
