@@ -1,3 +1,2 @@
 let Mobile = function(methods,){
-   this.methodsMobile = 
-}
+   this.methodsMobile = methods;
