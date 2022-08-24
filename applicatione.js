@@ -1,3 +1,9 @@
+let properties = function (soanTin) {
+   this.soanTin = soanTin;
+
+   this.getSoanTin = function () {
+      return this.soanTin;
+   }
 let Methodes = function(read,sent,seen){
    this.readMes = read;
    this.sentMes = sent;
